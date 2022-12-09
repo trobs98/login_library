@@ -25,6 +25,11 @@ The Schema consists of a User table and a UserAudit table
 
 ![image](https://user-images.githubusercontent.com/45018105/206810284-4d3a2b77-7995-4945-8b03-2973579b7d22.png)
 
+### Setup
+To setup the database, import the user_schema.sql file into your MySQL server using the following command:
+
+`mysql -u <USER> -p <PASSWORD> < user_schema.sql`
+
 ## Client
 
 ## Server
