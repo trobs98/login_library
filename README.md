@@ -9,7 +9,8 @@ This library is intended to be used as a login page that can be imported into a 
 The Schema consists of a User table and a UserAudit table
 1. User table
     - Conists of the user authentication information including
-        - User name
+        - User first name
+        - User last name
         - User email
         - The hashed user password
         - The salt that is used to hash user password
@@ -23,7 +24,7 @@ The Schema consists of a User table and a UserAudit table
         - The salt that is used to hash the cookie    
     - Each time a user logs in, a new record is created
 
-![image](https://user-images.githubusercontent.com/45018105/206810284-4d3a2b77-7995-4945-8b03-2973579b7d22.png)
+![image](https://user-images.githubusercontent.com/45018105/208285486-26849d86-8c51-494a-bd15-98640cc9b123.png)
 
 ### Setup
 To setup the database, import the user_schema.sql file into your MySQL server using the following command:
