@@ -14,11 +14,12 @@ USE `UserSchema` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `UserSchema`.`User` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(45) NOT NULL,
-  `email` VARCHAR(45) NOT NULL,
-  `hash_password` VARCHAR(100) NOT NULL,
-  `salt` VARCHAR(100) NOT NULL,
-  `create_date` DATETIME NOT NULL,
+  `first_name` VARCHAR(100) NOT NULL,
+  `last_name` VARCHAR(100) NOT NULL,
+  `email` VARCHAR(100) NOT NULL,
+  `hash_password` VARCHAR(344) NOT NULL,
+  `salt` VARCHAR(344) NOT NULL,
+  `create_date` VARCHAR(25) NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
