@@ -1,6 +1,6 @@
 # Login Library
 
-This library is intended to be used as a login page that can be imported into a project as:  
+This library is intended to be used as an authentication template that can be imported into further projects as:  
 - A frontend UI for a login page modal
 - A backend to deal with authentication and authorization
 - A database that stores user information and user audit data
