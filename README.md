@@ -34,5 +34,18 @@ The Schema consists of a User table, a UserAudit table and a ResetPasswordToken 
 
 ## Server
 
+The server is a Node JS API that uses the Express framework. It handles the following routes: 
+1. /session/login    
+2. /session/logout
+3. /session/signup
+4. /session/forgotpassword
+5. /session/resetpassword
+
+Additionally, the server handles:
+- Invalid request routes with a 404 response
+- Cookie authentication to verify the user has logged in and has a valid cookie
+
+Please see README.md in the server directory for more in depth information https://github.com/trobs98/login_library/tree/main/server 
+
 ## Client
 
